@@ -13,7 +13,7 @@ class mailSenderController extends Controller
 
     public $emailFrom  = 'ilyuxa252@gmail.com';
     public $emailTo;
-    public $messagesPerMinute = 1;
+    public $messagesPerMinute = 100;
     public $request;
 
     public function sendMails(){// основной метод вызываемый в роуте, и отправляет письма
